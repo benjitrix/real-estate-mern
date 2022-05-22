@@ -1,0 +1,55 @@
+.cart-container{
+  width: var(--width-below-navbar);
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin: var(--padding-from-navbar) auto 0 auto;
+}
+
+.estates-in-cart {
+  padding: 1rem;
+  width: 80%;
+}
+
+.cart-item-titles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 0.5rem;
+}
+
+.cart-item-titles p {
+  font-weight: bold;
+}
+
+.estate-item-in-cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1.0rem;
+}
+
+.cart-item-link {
+  text-decoration: none;
+}
+
+.cart-item-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item-delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff0000;
+  font-size: 1.2rem;
+}
+
+.cart-item-price-total {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 2px solid #000;
+}
+
+.cart-item-price-total p {
+  font-weight: bold;
+}

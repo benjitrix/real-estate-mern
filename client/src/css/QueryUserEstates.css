@@ -1,0 +1,12 @@
+.query-user-estates {
+  margin: 0 auto;
+  margin-top: var(--padding-from-navbar);
+  width: var(--width-below-navbar);
+}
+
+@media screen and (min-width: 996px) {
+  .query-user-estates {
+    display: flex;
+    justify-content: space-between;
+  }
+}

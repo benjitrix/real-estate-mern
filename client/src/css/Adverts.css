@@ -1,0 +1,10 @@
+.adverts {
+  margin: 0 auto;
+  padding: 0.5rem;
+  background-color: rgb(120, 151, 120);
+}
+
+.adverts p {
+  text-align: center;
+  font-weight: 600;
+}

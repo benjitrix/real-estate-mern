@@ -1,0 +1,11 @@
+.query-estates-container {
+  width: 92%;
+  margin: 3.5rem auto 0rem auto;
+}
+
+@media screen and (min-width: 996px) {
+  .query-estates {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+}

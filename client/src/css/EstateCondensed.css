@@ -1,0 +1,41 @@
+.estate-condensed-container {
+  width: 25.5rem;
+  height: 6.4rem;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  background: rgb(120, 151, 120);
+}
+
+.estate-link {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #000;
+}
+
+.estate-title {
+  font-weight: 700;
+}
+
+.estate-category-type {
+  font-weight: 700;
+}
+
+.estate-price {
+  font-weight: 700;
+}
+
+.estate-day-created {
+  font-weight: 700;
+}
+
+.estate-info p span {
+  font-weight: normal;
+}
+
+.estate-image {
+  width: 130px;
+  height: 90px;
+  
+}
+

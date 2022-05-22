@@ -1,0 +1,80 @@
+.admin {
+  width: var(--width-below-navbar);
+  margin: 4.0rem auto 0rem auto;
+}
+
+.admin > h2 {
+  text-align: center;
+}
+
+.admin-container {
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr;
+}
+
+/* estate management */
+.estate-management {
+  border: 1px solid #000;
+  border-radius: 0.4rem;
+  margin-right: 0.5rem;
+  padding: 1.0rem;
+}
+
+.estate-management > h2 {
+  text-align: center;
+}
+
+.estate-management-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-query-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.add-category-type label {
+  display: block;
+}
+
+.add-category-type-input {
+  width: 10rem;
+  height: auto;
+  margin-right: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.category-type-add-btn {
+  width: 3.5rem;
+  height: auto;
+}
+
+.add-estate-type-select-category {
+  background: #b3afaf;
+  padding: 0.3rem 0.4rem;
+}
+
+/* user management */
+.user-management {
+  border: 1px solid #000;
+  border-radius: 0.4rem;
+  padding: 1.0rem;
+}
+
+.user-management > h2 {
+  text-align: center;
+}
+
+
+.manage-user-link {
+  display: inline-block;
+  padding: 0.5rem;
+  background: rgb(170, 166, 166);
+  margin-right: 0.3rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}

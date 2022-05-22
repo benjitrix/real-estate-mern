@@ -1,0 +1,42 @@
+/* register estate */
+.register-estate-container {
+  padding-top: var(--padding-from-navbar);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-estate-container h2 {
+  margin-bottom: 0.5rem;
+}
+
+.register-estate-form {
+  padding: 1rem;
+  border: 1px solid #000;
+
+}
+
+.estate-input {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.estate-description {
+  min-height: 5rem;
+}
+
+.estate-submit {
+  margin-top: 0.7rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 996px) {
+  .estates-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+}

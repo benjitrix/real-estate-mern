@@ -1,0 +1,10 @@
+:root {
+  --padding-from-navbar: 4rem;
+  --width-below-navbar: 92%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

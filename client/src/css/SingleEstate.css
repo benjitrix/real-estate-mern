@@ -1,0 +1,106 @@
+/* single-estate */
+.single-estate-container {
+  padding-top: var(--padding-from-navbar);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1.0rem auto;
+}
+
+.images-map {
+  margin: 0 auto;
+}
+
+.mapouter {
+  border: 4px solid rgb(120, 151, 120);
+}
+
+.single-estate-category-type-location-date {
+  display: grid;
+  grid-template-areas: 
+  "a a b b"
+  "c c c c"
+  "d d . .";
+  background: rgb(120, 151, 120);
+}
+
+.single-estate-category-type-location-date p:nth-child(1) {
+    grid-area: a;
+}
+
+.single-estate-category-type-location-date p:nth-child(2) {
+  grid-area: b;
+}
+
+.single-estate-category-type-location-date p:nth-child(3) {
+  grid-area: c;
+}
+
+.single-estate-category-type-location-date p:nth-child(4) {
+  grid-area: d;
+}
+
+@media screen and (min-width: 996px) {
+  .single-estate-container {
+    width: 50rem;
+  }
+  .images-map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .single-estate-category-type-location-date {
+    grid-template-areas: 
+    "a b c c c d";
+  }
+
+  .single-estate-category-type-location-date p > span {
+    display: block;
+  }
+}
+
+.single-estate-description {
+  background: rgb(175, 199, 243);
+  padding: 0.2rem 0.5rem;
+}
+
+.single-estate-description .description {
+  height: auto;
+}
+
+/* single-estate modal */
+.single-estate-show-modal-icon {
+  position: absolute;
+  top: 6rem;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.single-estate-show-modal-icon:hover {
+  font-size: 1.0rem;
+  padding: 0.5rem;
+  background: rgb(238, 177, 63);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.single-estate-show-modal-list {
+  position: absolute;
+  top: 7.7rem;
+  right: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  opacity: 0.85;
+}
+
+/* single-estate modal begin */
+/* .single-estate-show-modal-icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+} */

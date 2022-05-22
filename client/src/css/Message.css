@@ -1,0 +1,11 @@
+/* message */
+.message p {
+  background: rgb(175, 243, 175);
+  padding: 0.2rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.error-true p {
+  background: rgb(252, 193, 202);
+}

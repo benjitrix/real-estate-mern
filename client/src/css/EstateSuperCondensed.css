@@ -1,0 +1,17 @@
+.super-condensed-container {
+  width: 17rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  background: rgb(120, 151, 120);
+}
+
+.cart-item-info span {
+  font-weight: 700;
+}
+
+.super-condensed-image {
+  width: 70px;
+  height: 50px;
+}
+
